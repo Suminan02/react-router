@@ -1,0 +1,26 @@
+lable{
+  display: inline-block;
+  margin: 10px 0;
+}
+
+input{
+  border: 1 px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+input:focus{
+  outline: none;
+
+}
+
+.btn{
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0 30px;
+  padding: 10px;
+  font-size: 16px;
+}

@@ -1,0 +1,30 @@
+.report-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 15px;
+  margin: 15px;
+}
+
+.report-container>div{
+  flex: 1;
+  text-align: center;
+}
+
+.report-container>div:first-of-type{
+  border-right: 5px solid #dedede;
+}
+
+.report{
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.report.incomes{
+  color: #2ecc71;
+}
+
+.report.expense{
+  color: red;
+}
